@@ -1,0 +1,11 @@
+add_rules("mode.debug", "mode.release")
+set_languages("c++latest")
+set_toolchains("clang")
+set_policy("build.c++.modules.std", false)
+add_cxxflags("-stdlib=libc++", { force = true })
+add_ldflags("-stdlib=libc++", { force = true })
+
+target("expression-evaluator")
+    set_kind("binary")
+    add_files("src/core.cppm")
+    add_files("src/main.cpp")

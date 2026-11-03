@@ -1,0 +1,16 @@
+[
+{
+  "directory": "/home/kojo/Projects/expression-evaluation",
+  "arguments": ["/usr/bin/clang++", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++26", "-stdlib=libc++", "-DNDEBUG", "-x", "c++-module", "--precompile", "-o", "build/.gens/expression-evaluator/linux/x86_64/release/rules/bmi/cache/interfaces/bd7379dcad9b3cab/core.pcm", "src/core.cppm"],
+  "file": "src/core.cppm"
+},
+{
+  "directory": "/home/kojo/Projects/expression-evaluation",
+  "arguments": ["/usr/bin/clang++", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++26", "-stdlib=libc++", "-DNDEBUG", "-o", "build/.objs/expression-evaluator/linux/x86_64/release/src/core.cppm.o", "src/core.cppm"],
+  "file": "src/core.cppm"
+},
+{
+  "directory": "/home/kojo/Projects/expression-evaluation",
+  "arguments": ["/usr/bin/clang++", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++26", "-stdlib=libc++", "-DNDEBUG", "-fmodule-file=core=build/.gens/expression-evaluator/linux/x86_64/release/rules/bmi/cache/interfaces/bd7379dcad9b3cab/core.pcm", "-o", "build/.objs/expression-evaluator/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]

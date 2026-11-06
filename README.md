@@ -1,6 +1,8 @@
 # Expr Lab
 As I am in the process of designing and implementing [Tru lang](https://github.com/KojoBailey/tru-lang), I wanted to test some ideas at a smaller-scale. Hence, this project is a playground for me to implement a small CLI expession evaluator that supports some interesting features.
 
+Doing this not only allows me to test ideas in isolation without having to worry about how getting things "perfect" for Tru, but it also lets me practise implementing a compiler-esque application in C++ at a much smaller scale.
+
 ## Stand-Out Features
 At the moment, none of these have been implemeneted yet, but the goal is that they will be at least partially.
 

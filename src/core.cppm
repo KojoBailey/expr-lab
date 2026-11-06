@@ -9,6 +9,7 @@ module;
 #include <filesystem>
 #include <fstream>
 #include <map>
+#include <memory>
 #include <optional>
 #include <span>
 #include <string>
@@ -36,6 +37,9 @@ export namespace core {
 
 	template<typename A, typename B>
 	using Pair = std::pair<A, B>;
+
+	template<typename A>
+	using UniquePtr = std::unique_ptr<A>;
 
 	template<typename... As>
 	using Variant = std::variant<As...>;

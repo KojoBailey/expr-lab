@@ -7,5 +7,5 @@ add_ldflags("-stdlib=libc++", { force = true })
 
 target("expression-evaluator")
     set_kind("binary")
-    add_files("src/core.cppm")
+    add_files("src/*.cppm")
     add_files("src/main.cpp")
